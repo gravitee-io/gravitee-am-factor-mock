@@ -1,0 +1,20 @@
+= Gravitee.io - Access Management - Mock Factor
+
+ifdef::env-github[]
+image:https://img.shields.io/static/v1?label=Available%20at&message=Gravitee.io&color=1EC9D2["Gravitee.io", link="https://download.gravitee.io/#graviteeio-am/plugins/factors/gravitee-am-factor-mock/"]
+image:https://img.shields.io/badge/semantic--release-conventional%20commits-e10079?logo=semantic-release["Releases", link="https://github.com/gravitee-io/gravitee-am-factor-mock/releases"]
+endif::[]
+
+== Description
+
+With MFA Mock factor, you can easily test MFA feature
+
+== Installation
+
+1. Copy the plugin .zip file into the `plugins` folder of the AM Gateway and the AM Management API
+2. Restart both components.
+
+== Configuration
+
+A new entry will be available in the factor list `AM_UI -> Multifactor Auth -> Mock` to create and configure a new mock factor.
+
