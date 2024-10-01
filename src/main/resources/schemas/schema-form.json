@@ -1,0 +1,18 @@
+{
+  "type" : "object",
+  "id" : "urn:jsonschema:io:gravitee:am:factor:mock:MockFactorConfiguration",
+  "properties" : {
+    "factorType": {
+      "title": "Factor Type",
+      "description": "Type of the factor",
+      "default": "MOCK",
+      "readOnly": true
+    },
+    "code": {
+        "title": "Code",
+        "description": "Unique code verified by this mock factor",
+        "type": "string"
+    }
+  },
+  "required": ["code"]
+}
