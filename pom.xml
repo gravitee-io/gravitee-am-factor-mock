@@ -40,7 +40,7 @@
 
     <properties>
         <gravitee-am.version>4.6.5</gravitee-am.version>
-        <gravitee-bom.version>8.3.46</gravitee-bom.version>
+        <gravitee-bom.version>8.3.47</gravitee-bom.version>
         <gravitee-plugin-api.version>4.9.1</gravitee-plugin-api.version>
         <gravitee-node-api.version>5.21.2</gravitee-node-api.version>
         <publish-folder-path>graviteeio-am/plugins/factors/</publish-folder-path>
